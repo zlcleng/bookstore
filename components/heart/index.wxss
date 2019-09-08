@@ -1,0 +1,17 @@
+/* components/heart/index.wxss */
+.heart-container {
+  display: inline-flex;
+  position: relative;
+  padding: 10rpx;
+}
+.heart-container image {
+  width: 26rpx;
+  height: 23rpx;
+}
+.heart-container text {
+  font-size: 16rpx;
+  position: relative;
+  bottom: 10rpx;
+  right: -5rpx;
+  color: #aaa;
+}
