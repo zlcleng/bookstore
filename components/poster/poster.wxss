@@ -1,0 +1,16 @@
+/* components/poster/poster.wxss */
+.poster-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.poster-container image{
+  width:100%;
+  height: 500rpx;
+  margin-bottom: 100rpx;
+}
+.poster-container text {
+  max-width: 500rpx;
+}

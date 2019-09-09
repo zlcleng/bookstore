@@ -1,0 +1,4 @@
+/* pages/recommend/recommend.wxss */
+.recommend-top {
+  padding: 30rpx;
+}

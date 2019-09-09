@@ -1,1 +1,1 @@
-export { default as classicApi } from './classic.js'
+export { default as recommendApi } from './recommend.js'

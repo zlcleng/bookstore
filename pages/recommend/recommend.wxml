@@ -1,0 +1,7 @@
+<!--pages/recommend/recommend.wxml-->
+<view class="recommoned-container">
+  <view class="recommend-top">
+    <v-heart like="{{recommendList.like_status !== 0}}" count="{{recommendList.fav_nums}}"/>
+  </view>
+  <v-poster content="{{recommendList.content}}" bgImg="{{recommendList.image}}"/>
+</view>

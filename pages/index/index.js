@@ -1,6 +1,4 @@
 //index.js
-import { user } from "../../mock/data.js"
-import {classicApi}  from '../../api/index.js'
 //获取应用实例
 const app = getApp()
 Page({
@@ -44,12 +42,6 @@ Page({
         }
       })
     }
-    classicApi.getdata().then(data => {
-      console.log(data)
-      this.setData({
-        classic: data
-      })
-    })
   },
   getUserInfo: function(e) {
     app.globalData.userInfo = e.detail.userInfo
