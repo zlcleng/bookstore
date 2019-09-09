@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/recommend/recommend",
     "pages/index/index",
     "pages/logs/logs",
     "components/heart/index"

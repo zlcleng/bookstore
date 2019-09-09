@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "v-heart": "../../components/heart/index",
+    "v-poster": "../../components/poster/poster"
+  }
+}
