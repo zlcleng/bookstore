@@ -16,10 +16,10 @@ Component({
    * 组件的初始数据
    */
   data: {
-    like: true,
+    like: false,
     disLikeSrc: '../images/disLike.png',
     likeSrc: '../images/like.png',
-    count: 99
+    count: 0
   },
 
   /**
