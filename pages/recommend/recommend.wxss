@@ -1,4 +1,8 @@
 /* pages/recommend/recommend.wxss */
 .recommend-top {
-  padding: 30rpx;
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+

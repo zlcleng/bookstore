@@ -14,7 +14,6 @@ Page({
    */
   onLoad: function (options) {
     recommendApi.getRecommendList().then(data => {
-      console.log(data)
       this.setData({
         recommendList: data
       })
@@ -48,7 +47,19 @@ Page({
   onUnload: function () {
 
   },
-
+  /**
+   * 加入/取消收藏
+   */
+  handleLike: function (e) {
+    const like_status = e.detail.like_status
+    recommendApi.triggerLike({like_status}).then(data => {
+      wx.showToast({
+        title: like_status ? '收藏成功' : '取消成功',
+        icon: 'none',
+        duration: 2000
+      })
+    })
+  },
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */

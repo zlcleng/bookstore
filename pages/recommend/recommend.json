@@ -1,5 +1,6 @@
 {
   "usingComponents": {
+    "v-episode": "../../components/episode/episode",
     "v-heart": "../../components/heart/index",
     "v-poster": "../../components/poster/poster"
   }

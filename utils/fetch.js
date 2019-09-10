@@ -33,6 +33,7 @@ const request = function (url, data, method) {
         } else {
           wx.showToast({
             title: res.message || res.msg,
+            icon: 'none',
             duration: 3000
           })
           reject(res)
@@ -41,6 +42,7 @@ const request = function (url, data, method) {
       fail: function (err) {
         wx.showToast({
           title: '网络出错啦！！！！',
+          icon: 'none',
           duration: 3000
         })
         reject(err)

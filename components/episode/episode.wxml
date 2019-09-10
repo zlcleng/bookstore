@@ -1,0 +1,12 @@
+<!--components/episode/episode.wxml-->
+<view class="episode-container">
+  <view class="rank-container">
+    <text class="rankLabel">NO.</text>
+    <text class="ranking">{{_ranking}}</text>
+    <view class="cutLine"></view>
+  </view>
+  <view class="calen-container">
+    <text>{{month}}</text>
+    <text>{{year}}</text>
+  </view>
+</view>

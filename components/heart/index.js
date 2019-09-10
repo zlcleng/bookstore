@@ -33,6 +33,9 @@ Component({
         like: !like,
         count
       })
+      this.triggerEvent('handleLike', {
+        "like_status" : this.properties.like
+      }, {})
     }
   }
 })

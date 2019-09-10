@@ -1,0 +1,27 @@
+/* components/episode/episode.wxss */
+.episode-container {
+  display: inline-flex;
+}
+.rank-container{
+  display: flex;
+  align-items: baseline;
+  font-size: 30rpx;
+  color: #999;
+}
+.rank-container .ranking {
+  font-size: 60rpx;
+  color: #333;
+}
+.rank-container .cutLine {
+  display: inline-block;
+  width: 1px;
+  height: 45rpx;
+  background-color: #444;
+  margin: 0 10rpx;
+}
+.episode-container .calen-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 20rpx;
+  margin-top: 15rpx;
+}
